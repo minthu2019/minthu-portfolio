@@ -36,12 +36,12 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className=" flex justify-center items-center">
-        <CiMenuFries className=" text-[32px] text-accent" />
+        <CiMenuFries className=" text-[25px] text-accent" />
       </SheetTrigger>
       <SheetContent className="flex flex-col  items-center justify-center">
         
         {/* logo */}
-        <div className="mb-10 text-4xl font-semibold">
+        <div className="mb-[16px] text-[25px] xl:text-4xl font-semibold">
             <Link href={"/"}>
                 Minthu<span className=" text-accent">.</span>
             </Link>
