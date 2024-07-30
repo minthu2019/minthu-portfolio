@@ -173,11 +173,11 @@ const Resume = () => {
         <Tabs 
         defaultValue="experience" 
         className=" flex flex-col xl:flex-row gap-[20px] ">
-          <TabsList className=' flex xl:flex-col xl:w-full xl:max-w-[380px] mx-auto xl:mx-0 gap-[16px]'>
+          <TabsList className=' flex xl:flex-col xl:w-full xl:max-w-[380px] mx-auto xl:mx-0 gap-[8px]'>
             <TabsTrigger value='experience'>Experience</TabsTrigger>
             <TabsTrigger value='education'>Education</TabsTrigger>
             <TabsTrigger value='skills'>Skills</TabsTrigger>
-            <TabsTrigger value='about'>About me</TabsTrigger>
+            <TabsTrigger value='about'>About</TabsTrigger>
           </TabsList>
 
           {/* content */}
@@ -235,7 +235,7 @@ const Resume = () => {
             </TabsContent>
 
             {/* skills */}
-            <TabsContent value='skills' className='w-full h-full'>
+            <TabsContent value='skills' className='w-full h-full mb-6'>
               <div className="flex flex-col gap-[20px]">
                 <div className="flex flex-col gap-[20px] text-center xl:text-left">
                   <h3 className=" text-[30px] font-bold">{skills.title}</h3>

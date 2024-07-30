@@ -7,25 +7,25 @@ const services = [
   {
     num: '01',
     title: 'Web Development',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
     href: '',
   },
   {
     num: '02',
     title: 'UI/UX Design',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
     href: '',
   },
   {
     num: '03',
     title: 'LOGO Design',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
     href: '',
   },
   {
     num: '04',
     title: 'SEO',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing amet consectetur adipisicing  voluptatem! Libero, maxime voluptates.',
     href: '',
   },
 ]
