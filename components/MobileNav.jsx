@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import {CiMenuFries} from 'react-icons/ci'
+import Image from "next/image";
 
 const links = [
     {
@@ -42,8 +43,9 @@ const MobileNav = () => {
         
         {/* logo */}
         <div className="mb-[16px] text-[25px] xl:text-4xl font-semibold">
-            <Link href={"/"}>
-                Minthu<span className=" text-accent">.</span>
+            <Link href={"/"} className="flex gap-2">
+                <Image src="/assets/logo.png" alt="logoImage" width={40} height={40}/>
+               Minthu<span className=" text-accent">.</span>
             </Link>
         </div>
 

@@ -102,22 +102,22 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           {/* text */}
-          <div className="w-full gap-[30px] xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
-            <div className="group flex flex-col gap-[30px] h-[50%]">
+          <div className="w-full gap-[16px] xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
+            <div className="group flex flex-col gap-[16px] h-[50%]">
               {/* outline num */}
-              <div className="text-8xl leading-none font-extrabold text-transparent text-outline ">
+              <div className="text-[40px] leading-none font-extrabold text-transparent text-outline ">
                 {project.num}
               </div>
               {/* project category */}
-              <h2 className=" text-[42px] font-bold leading-none text-white group-hover:text-accent
+              <h2 className=" text-[30px] font-bold leading-none text-white group-hover:text-accent
                transition-all duration-500 capitalize">{project.category} project</h2>
               {/* project description */}
-              <p className="text-white/60">{project.description}</p>
+              <p className=" text-[16px] text-white/60">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index)=>{
                   return (
-                    <li key={index} className="text-xl text-accent">
+                    <li key={index} className="text-[20px] text-accent">
                       {item.name}
                       {/* remove the last comma */}
                       {index !== project.stack.length - 1 && ','}
@@ -172,12 +172,12 @@ const Work = () => {
                 projects.map((project, index)=>{
                   return(
                     <SwiperSlide key={index} className="w-full">
-                      <div className="h-[460px] relative group flex justify-center items-center">
+                      <div className="h-[217px] relative group flex justify-center items-center">
                         {/* overlay */}
-                        <div className=" absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                        <div className=" absolute top-0 bottom-0 w-full h-full bg-blue/10 z-10"></div>
                         {/* image */}
                         <div className=" relative w-full h-full rounded-md overflow-hidden ">
-                          <Image src={project.image} alt={project.title} fill className=" object-cover "/>
+                          <Image src={project.image} alt={project.title} fill className="object-cover"/>
                         </div>
                       </div>
                     </SwiperSlide>
